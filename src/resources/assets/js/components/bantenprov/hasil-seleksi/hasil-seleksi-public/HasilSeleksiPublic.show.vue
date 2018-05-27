@@ -86,9 +86,9 @@ export default {
   data() {
     return {
       loading: true,
-      title: 'View Passing Grade',
+      title: 'View Hasil Seleksi',
       sub_title: '',
-      api_url: '/api/passing-grade-public/'+this.$route.params.id+'/'+this.$route.params.track,
+      api_url: '/api/hasil-seleksi-public/'+this.$route.params.id+'/'+this.$route.params.track,
       fields: [
         {
           name: '__sequence',
@@ -283,7 +283,7 @@ export default {
       });
     },
     back() {
-      window.location = '#/passing-grade-public';
+      window.location = '#/hasil-seleksi-public';
     },
   },
   events: {

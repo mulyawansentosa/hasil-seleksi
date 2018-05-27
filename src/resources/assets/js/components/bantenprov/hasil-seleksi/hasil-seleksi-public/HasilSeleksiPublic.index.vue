@@ -90,8 +90,8 @@ export default {
   data() {
     return {
       loading: true,
-      title: 'Passing Grade',
-      api_url: '/api/passing-grade-public',
+      title: 'Hasil Seleksi',
+      api_url: '/api/hasil-seleksi-public',
       fields: [
         {
           name: '__sequence',
@@ -176,19 +176,19 @@ export default {
       this.loading = false;
     },
     createRow() {
-      window.location = '#/passing-grade-public/create';
+      window.location = '#/hasil-seleksi-public/create';
     },
     viewRow(rowData) {
-      window.location = '#/passing-grade-public/'+rowData.id;
+      window.location = '#/hasil-seleksi-public/'+rowData.id;
     },
     viewRowGeneral(rowData) {
-      window.location = '#/passing-grade-public/'+rowData.id+'/umum';
+      window.location = '#/hasil-seleksi-public/'+rowData.id+'/umum';
     },
     viewRowAchievement(rowData) {
-      window.location = '#/passing-grade-public/'+rowData.id+'/prestasi';
+      window.location = '#/hasil-seleksi-public/'+rowData.id+'/prestasi';
     },
     editRow(rowData) {
-      window.location = '#/passing-grade-public/'+rowData.id+'/edit';
+      window.location = '#/hasil-seleksi-public/'+rowData.id+'/edit';
     },
     deleteRow(rowData) {
       let app = this;
@@ -208,7 +208,7 @@ export default {
         reverseButtons: true,
       }).then((result) => {
         if (result.value) {
-          axios.delete('/api/passing-grade-public/'+rowData.id)
+          axios.delete('/api/hasil-seleksi-public/'+rowData.id)
             .then(function(response) {
               if (response.data.status == true && response.data.error == false) {
                 app.$refs.vuetable.reload();
