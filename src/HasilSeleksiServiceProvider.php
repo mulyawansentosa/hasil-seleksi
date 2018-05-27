@@ -129,12 +129,12 @@ class HasilSeleksiServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function assetHandle()
+    protected function assetHandle($publish = '')
     {
         $packageAssetsPath = __DIR__.'/resources/assets';
 
         $this->publishes([
-            $packageAssetsPath => public_path('vendor/hasil-seleksi'),
-        ], 'public');
+            $packageAssetsPath => resource_path('assets'),
+        ], 'hasil-seleksi-assets');
     }
 }
