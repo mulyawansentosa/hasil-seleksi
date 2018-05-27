@@ -5,14 +5,14 @@
       <div class="col-lg-6 mb-3">
         <div class="card h-100" style="color: #fff; background-color: #2196F3;">
           <div class="card-body">
-            <passing-grade-bar-03></passing-grade-bar-03>
+            <hasil-seleksi-bar-03></hasil-seleksi-bar-03>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
       <div class="col-lg-6 mb-3">
         <div class="card h-100" style="color: #fff; background-color: #4CAF50;">
           <div class="card-body">
-            <passing-grade-pie-03></passing-grade-pie-03>
+            <hasil-seleksi-pie-03></hasil-seleksi-pie-03>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -28,7 +28,7 @@
             Rasio Grup Kesenian Berdasarkan Wilayah
           </div>
           <div class="card-body">
-            <passing-grade-bar-01></passing-grade-bar-01>
+            <hasil-seleksi-bar-01></hasil-seleksi-bar-01>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -39,7 +39,7 @@
             Rasio Grup Kesenian Berdasarkan Tahun
           </div>
           <div class="card-body">
-            <passing-grade-pie-01></passing-grade-pie-01>
+            <hasil-seleksi-pie-01></hasil-seleksi-pie-01>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -55,7 +55,7 @@
             Rasio Grup Kesenian Berdasarkan Wilayah
           </div>
           <div class="card-body">
-            <passing-grade-pie-02></passing-grade-pie-02>
+            <hasil-seleksi-pie-02></hasil-seleksi-pie-02>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /.col -->
@@ -66,7 +66,7 @@
             Rasio Grup Kesenian Berdasarkan Tahun
           </div>
           <div class="card-body">
-            <passing-grade-bar-02></passing-grade-bar-02>
+            <hasil-seleksi-bar-02></hasil-seleksi-bar-02>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
